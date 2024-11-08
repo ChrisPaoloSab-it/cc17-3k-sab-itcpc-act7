@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/kidsHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/vikling"
+        android:padding="20dp"
+        android:text="@string/kidsHeader"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kids_scrollView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kidsHeader">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/md_theme_surfaceBright"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/kids1Image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:background="@color/bluey"
+                android:contentDescription="@string/kidsimage1"
+                android:padding="4dp"
+                app:srcCompat="@drawable/kidsimage" />
+
+            <TextView
+                android:id="@+id/kids1Text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/kids1"
+                android:textAlignment="center"
+                android:paddingBottom="5dp"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/kids2Image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:background="@color/bluey"
+                android:contentDescription="@string/kidsimage2"
+                android:padding="4dp"
+                app:srcCompat="@drawable/kidsimage" />
+
+            <TextView
+                android:id="@+id/kids2Text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/kids2"
+                android:paddingBottom="5dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/kids3Image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:background="@color/bluey"
+                android:contentDescription="@string/kidsimage3"
+                android:padding="4dp"
+                app:srcCompat="@drawable/kidsimage" />
+
+            <TextView
+                android:id="@+id/kids3Text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/kids3"
+                android:paddingBottom="5dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
