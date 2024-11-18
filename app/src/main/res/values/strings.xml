@@ -54,4 +54,7 @@
     <string name="shop2">Abanao Square Mall</string>
     <string name="shopimage3">Shop 3</string>
     <string name="shop3">Baguio Center Mall</string>
+    <string name="pvmallText">The Porta Vaga Mall is a small shopping destination close to the Baguio Cathedral, it stands along the famous Session Road and is a popular spot for a both the young and old. It hosts a lot of local merchants known throughout Baguio City. It has a great view of Session Road too.</string>
+    <string name="centermallText">The Baguio Center Mall is one of the oldest shopping destinations in the city. It has been a go to of many residents. Much like other public areas in the city, it is located near the public market and is close to some of the biggest universities in the city.</string>
+    <string name="abanaoText">Abanao Square is a place where locals visit before heading home after work, its proximity to the Baguio City Public Market makes it suitable to catch up with friends or relatives before heading home together. It has a pharmacy, a bookstore, and some restaurants. Try to visit this place to experience the Baguio local scene.</string>
 </resources>

@@ -47,9 +47,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ShoppingActivity::class.java)
             startActivity(intent)
         }
-
-
-
-
     }
 }
