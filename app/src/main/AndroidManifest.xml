@@ -42,7 +42,7 @@
         </activity>
 
         <activity
-            android:name=".SpaActivity"
+            android:name=".HealthActivity"
             android:exported="true">
         </activity>
 
@@ -57,7 +57,7 @@
         </activity>
 
         <activity
-            android:name=".ShopDetailsActivity"
+            android:name=".PlaceDetailsActivity"
             android:exported="true">
         </activity>
 

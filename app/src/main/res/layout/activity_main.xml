@@ -45,7 +45,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/md_theme_tertiaryFixed"
-                android:padding="5dp"
                 android:text="@string/coffee_shops"
                 android:textAlignment="center"
                 android:layout_gravity="center"
@@ -69,8 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@color/md_theme_tertiaryFixed"
-                android:padding="5dp"
-                android:text="@string/kid_friendly_places"
+                android:text="@string/kidsplace"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
@@ -80,7 +78,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:background="@color/md_theme_onTertiaryFixedVariant"
-                android:contentDescription="@string/kid_friendly_image"
+                android:contentDescription="@string/recommended_image"
                 android:padding="5dp"
                 android:layout_marginBottom="19dp"
                 android:layout_marginTop="2dp"
@@ -92,7 +90,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@color/md_theme_tertiaryFixed"
-                android:padding="5dp"
                 android:text="@string/restaurants"
                 android:textAlignment="center"
                 android:textSize="20sp" />
@@ -103,7 +100,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:background="@color/md_theme_onTertiaryFixedVariant"
-                android:contentDescription="@string/kid_friendly_image"
+                android:contentDescription="@string/recommended_image"
                 android:padding="5dp"
                 android:layout_marginBottom="19dp"
                 android:layout_marginTop="2dp"
@@ -115,7 +112,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@color/md_theme_tertiaryFixed"
-                android:padding="5dp"
                 android:text="@string/shoppingCenters"
                 android:textAlignment="center"
                 android:textSize="20sp" />
@@ -126,30 +122,29 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:background="@color/md_theme_onTertiaryFixedVariant"
-                android:contentDescription="@string/kid_friendly_image"
+                android:contentDescription="@string/recommended_image"
                 android:padding="5dp"
                 android:layout_marginBottom="19dp"
                 android:layout_marginTop="2dp"
                 app:srcCompat="@drawable/shopping_city_app" />
 
             <TextView
-                android:id="@+id/spaCategoryText"
+                android:id="@+id/healthCategoryText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@color/md_theme_tertiaryFixed"
-                android:padding="5dp"
-                android:text="@string/spa"
+                android:text="@string/health"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
             <ImageView
-                android:id="@+id/spaCategoryImage"
+                android:id="@+id/healthCategoryImage"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:background="@color/md_theme_onTertiaryFixedVariant"
-                android:contentDescription="@string/kid_friendly_image"
+                android:contentDescription="@string/recommended_image"
                 android:padding="5dp"
                 android:layout_marginBottom="19dp"
                 android:layout_marginTop="2dp"

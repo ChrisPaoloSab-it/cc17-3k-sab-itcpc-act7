@@ -36,9 +36,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val spaLink = findViewById<ImageView>(R.id.spaCategoryImage)
+        val spaLink = findViewById<ImageView>(R.id.healthCategoryImage)
         spaLink.setOnClickListener {
-            val intent = Intent(this, SpaActivity::class.java)
+            val intent = Intent(this, HealthActivity::class.java)
             startActivity(intent)
         }
 
